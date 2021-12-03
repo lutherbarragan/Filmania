@@ -1,11 +1,11 @@
-import logo from './Filmania.png';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<img src={logo} className='App-logo' alt='logo' />
+				<Header />
 			</header>
 		</div>
 	);
