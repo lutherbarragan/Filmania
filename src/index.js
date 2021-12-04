@@ -1,8 +1,15 @@
+// MODULES
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// STYLES
+import './normalize.css';
 import './index.css';
+
+// APP
 import App from './App';
 
+// OTHERS
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
