@@ -1,5 +1,5 @@
-import logo from '../../assets/filmania-logo.png';
+import './Header.css';
 
-const HomeLogo = () => <img src={logo} className='App-logo' alt='logo' />;
+const Header = () => <div className='Header'>HEADER</div>;
 
-export default HomeLogo;
+export default Header;
