@@ -2,9 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// STYLES
-import './normalize.css';
-
 // APP
 import App from './App';
 

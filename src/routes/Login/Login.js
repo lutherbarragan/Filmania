@@ -2,7 +2,6 @@
 import { Link } from 'react-router-dom';
 
 // STYLES
-import './Login.css';
 
 function Login() {
 	return (

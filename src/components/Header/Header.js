@@ -1,5 +1,5 @@
-import './Header.css';
+import HeaderDiv from './Header.styles.js';
 
-const Header = () => <div className='Header'>HEADER</div>;
+const Header = () => <HeaderDiv>FILMANIA</HeaderDiv>;
 
 export default Header;
