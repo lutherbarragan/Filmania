@@ -6,20 +6,19 @@ import Main from './routes/Main/Main';
 import Login from './routes/Login/Login';
 
 // STYLES
-// STYLES
 import './assets/normalize.css';
-import AppDiv from './App.styles.js';
+import StyledApp from './App.styles.js';
 
 function App() {
 	return (
-		<AppDiv>
+		<StyledApp>
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<Main />} />
 					<Route path='/login' element={<Login />} />
 				</Routes>
 			</BrowserRouter>
-		</AppDiv>
+		</StyledApp>
 	);
 }
 

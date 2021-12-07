@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const AppDiv = styled.div`
+const StyledApp = styled.div`
 	text-align: center;
 `;
 
-export default AppDiv;
+export default StyledApp;
