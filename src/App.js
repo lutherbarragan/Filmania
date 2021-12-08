@@ -6,7 +6,6 @@ import Main from './routes/Main/Main';
 import Login from './routes/Login/Login';
 
 // STYLES
-import './assets/normalize.css';
 import StyledApp from './App.styles.js';
 
 function App() {

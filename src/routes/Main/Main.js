@@ -2,17 +2,15 @@
 import { Link } from 'react-router-dom';
 
 // COMPONENTS
-import Header from '../../components/Header/Header';
 
 // STYLES
+import StyledMain from './Main.styles.js';
 
 function Main() {
 	return (
-		<div className='Main'>
-			<Header />
-			<h1>MAIN PAGE</h1>
+		<StyledMain>
 			<Link to='/login'>LOGIN</Link>
-		</div>
+		</StyledMain>
 	);
 }
 
