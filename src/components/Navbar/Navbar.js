@@ -1,10 +1,12 @@
 import StyledNavbar from './Navbar.styles.js';
 import logo from '../../assets/filmania-logo.png';
+// COMPONENTS
+import StyledButton from '../Button/Button';
 
 const Navbar = () => (
 	<StyledNavbar>
 		<img src={logo} alt='Filmania' />
-		<button>Sign In</button>
+		<StyledButton>Sign In</StyledButton>
 	</StyledNavbar>
 );
 

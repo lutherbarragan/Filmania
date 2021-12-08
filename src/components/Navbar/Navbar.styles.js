@@ -4,6 +4,7 @@ const StyledNavbar = styled.nav`
 	height: 5rem;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 	padding: 25px 0 0 0;
 	margin: 0 3.5rem;
 
