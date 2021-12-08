@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // ROUTES
-import Main from './routes/Main/Main';
+import Main from './routes/Home/Home';
 import Login from './routes/Login/Login';
 
 // STYLES
