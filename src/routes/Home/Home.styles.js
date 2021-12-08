@@ -3,6 +3,8 @@ import bg from '../../assets/background.jpg';
 
 const StyledHome = styled.div`
 	font-family: 'Roboto', sans-serif;
+	background-color: #222;
+	padding-bottom: 1vh;
 
 	main {
 		height: 99vh;

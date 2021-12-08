@@ -6,8 +6,6 @@ import './assets/fonts.css';
 
 import './assets/styles.css';
 
-const StyledApp = styled.div`
-	text-align: center;
-`;
+const StyledApp = styled.div``;
 
 export default StyledApp;
