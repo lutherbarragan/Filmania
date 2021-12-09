@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 const StyledNavbar = styled.nav`
+	position: absolute;
+	width: 100%;
 	height: 5rem;
+	padding: 25px 3.5rem 0 3.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding: 25px 0 0 0;
-	margin: 0 3.5rem;
 
 	img {
 		display: inline-block;

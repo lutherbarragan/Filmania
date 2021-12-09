@@ -5,9 +5,8 @@ import StyledHome from './Home.styles.js';
 function Main() {
 	return (
 		<StyledHome>
-			<main>
-				<Navbar />
-			</main>
+			<Navbar />
+			<main></main>
 		</StyledHome>
 	);
 }
