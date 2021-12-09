@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import bg from '../../assets/background.jpg';
 
-const StyledHome = styled.div`
+const Home = styled.div`
 	font-family: 'Inter', sans-serif;
 	background-color: #222;
 	padding-bottom: 1vh;
@@ -39,9 +39,10 @@ const StyledHome = styled.div`
 			h3 {
 				font-size: 18px;
 				font-weight: 500;
+				margin: 0.85rem 0;
 			}
 		}
 	}
 `;
 
-export default StyledHome;
+export default Home;

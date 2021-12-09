@@ -1,10 +1,12 @@
 // COMPONENTS
 import Navbar from '../../components/Navbar/Navbar';
-import StyledHome from './Home.styles.js';
+import Input from '../../components/Input/Input';
+// STYLES
+import Home from './Home.styles.js';
 
 function Main() {
 	return (
-		<StyledHome>
+		<Home>
 			<Navbar />
 			<main>
 				<h1>
@@ -14,10 +16,10 @@ function Main() {
 
 				<form>
 					<h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-					<input type='text' placeholder='Email address' />
+					<Input type='text' placeholder='Email address' />
 				</form>
 			</main>
-		</StyledHome>
+		</Home>
 	);
 }
 
