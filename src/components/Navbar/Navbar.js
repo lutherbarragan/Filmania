@@ -6,7 +6,7 @@ import StyledButton from '../Button/Button';
 const Navbar = () => (
 	<StyledNavbar>
 		<img src={logo} alt='Filmania' />
-		<StyledButton>Sign In</StyledButton>
+		<StyledButton to='/login'>Sign In</StyledButton>
 	</StyledNavbar>
 );
 
