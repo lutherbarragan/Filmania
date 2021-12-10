@@ -7,12 +7,13 @@ const StyledButton = styled.button`
 	line-height: normal;
 	padding: 7px 17px;
 	border-radius: 3px;
-	color: #fff;
-	background-color: #e50914;
+	color: ${props => props.theme.white};
+	background-color: ${props => props.theme.mainRed};
 	border-style: none;
 
 	&:hover {
 		cursor: pointer;
+		background-color: ${props => props.theme.secondaryRed};
 	}
 `;
 

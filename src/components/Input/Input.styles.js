@@ -16,8 +16,13 @@ const StyledInput = styled.div`
 	button {
 		width: 35%;
 		font-size: 30px;
-		background-color: #e50914;
-		color: #fff;
+		background-color: ${props => props.theme.mainRed};
+		color: ${props => props.theme.white};
+
+		&:hover {
+			background-color: ${props => props.theme.secondaryRed};
+			cursor: pointer;
+		}
 	}
 `;
 

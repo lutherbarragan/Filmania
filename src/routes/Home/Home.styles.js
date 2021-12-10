@@ -3,22 +3,22 @@ import bg from '../../assets/background.jpg';
 
 const Home = styled.div`
 	font-family: 'Inter', sans-serif;
-	background-color: #222;
-	padding-bottom: 1vh;
+	background-color: ${props => props.theme.black};
 
 	main {
-		height: 99vh;
+		height: 100vh;
 		padding-top: 15rem;
 		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%),
 			radial-gradient(circle, rgba(0, 0, 0, 0.095) 0%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(${bg});
 		background-size: cover;
 		background-position: center;
 		text-align: center;
+		border-bottom: 1vh solid ${props => props.theme.darkGray};
 
 		h1,
 		h2,
 		h3 {
-			color: #fff;
+			color: ${props => props.theme.white};
 			font-family: inherit;
 		}
 
