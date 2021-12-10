@@ -12,6 +12,7 @@ const Home = styled.div`
 			radial-gradient(circle, rgba(0, 0, 0, 0.095) 0%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(${bg});
 		background-size: cover;
 		background-position: center;
+		background-repeat: no-repeat;
 		text-align: center;
 		border-bottom: 1vh solid ${props => props.theme.darkGray};
 
