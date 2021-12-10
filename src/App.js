@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 // ROUTES
-import Main from './routes/Home/Home';
+import Home from './routes/Home/Home';
 import Login from './routes/Login/Login';
 
 // STYLES
@@ -23,7 +23,7 @@ function App() {
 			<StyledApp>
 				<BrowserRouter>
 					<Routes>
-						<Route path='/' element={<Main />} />
+						<Route path='/' element={<Home />} />
 						<Route path='/login' element={<Login />} />
 					</Routes>
 				</BrowserRouter>
