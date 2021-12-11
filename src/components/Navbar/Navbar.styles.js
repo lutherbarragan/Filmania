@@ -12,6 +12,10 @@ const StyledNavbar = styled.nav`
 	img {
 		display: inline-block;
 		height: 100%;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 `;
 

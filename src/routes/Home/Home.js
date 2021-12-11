@@ -1,6 +1,7 @@
 // COMPONENTS
 import Navbar from '../../components/Navbar/Navbar';
 import EmailForm from '../../components/EmailForm/EmailForm';
+import HomeSection from '../../components/HomeSection/HomeSection';
 // STYLES
 import StyledHome from './Home.styles.js';
 
@@ -19,6 +20,29 @@ function Home() {
 					<EmailForm type='text' placeholder='Email address' />
 				</form>
 			</main>
+
+			<HomeSection>
+				<div for='text'>
+					<h1>Enjoy on your TV.</h1>
+					<h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
+				</div>
+				<div for='image'>IMAGE</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div for='image'>IMAGE</div>
+				<div for='text'>TEXT</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div for='text'>TEXT</div>
+				<div for='image'>IMAGE</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div for='image'>IMAGE</div>
+				<div for='text'>TEXT</div>
+			</HomeSection>
 		</StyledHome>
 	);
 }
