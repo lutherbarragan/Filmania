@@ -2,6 +2,10 @@
 import Navbar from '../../components/Navbar/Navbar';
 import EmailForm from '../../components/EmailForm/EmailForm';
 import HomeSection from '../../components/HomeSection/HomeSection';
+// ASSETS
+import TV from '../../assets/tv.png';
+import TVVideo from '../../assets/tv-video.m4v';
+
 // STYLES
 import StyledHome from './Home.styles.js';
 
@@ -22,26 +26,22 @@ function Home() {
 			</main>
 
 			<HomeSection>
-				<div for='text'>
+				<div type='text-container'>
 					<h1>Enjoy on your TV.</h1>
 					<h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
 				</div>
-				<div for='image'>IMAGE</div>
-			</HomeSection>
 
-			<HomeSection>
-				<div for='image'>IMAGE</div>
-				<div for='text'>TEXT</div>
-			</HomeSection>
+				<div type='image-container'>
+					<div type='parent-animation-container'>
+						<img src={TV} alt='tv frame' />
 
-			<HomeSection>
-				<div for='text'>TEXT</div>
-				<div for='image'>IMAGE</div>
-			</HomeSection>
-
-			<HomeSection>
-				<div for='image'>IMAGE</div>
-				<div for='text'>TEXT</div>
+						<div type='video-container'>
+							<video autoPlay muted loop>
+								<source src={TVVideo} type='video/mp4' />
+							</video>
+						</div>
+					</div>
+				</div>
 			</HomeSection>
 		</StyledHome>
 	);

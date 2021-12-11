@@ -15,13 +15,13 @@ const StyledHomeSection = styled.section`
 		border: 1px solid blue;
 	}
 
-	div[for='text'],
-	div[for='image'] {
+	div[type='text-container'],
+	div[type='image-container'] {
 		display: inline-block;
 		border: 1px solid red;
 	}
 
-	div[for='text'] {
+	div[type='text-container'] {
 		width: 52%;
 		line-height: 1.4;
 
@@ -35,8 +35,35 @@ const StyledHomeSection = styled.section`
 			font-size: 1.625rem;
 		}
 	}
-	div[for='image'] {
+
+	div[type='image-container'] {
 		width: 48%;
+
+		div[type='parent-animation-container'] {
+			position: relative;
+			overflow: hidden;
+
+			img {
+				position: relative;
+				z-index: 2;
+			}
+
+			div[type='video-container'] {
+				width: 100%;
+				height: 100%;
+				max-width: 73%;
+				max-height: 54%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -54%);
+
+				video {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
 	}
 `;
 export default StyledHomeSection;
