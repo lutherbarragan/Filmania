@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledInput = styled.div`
+const StyledEmailForm = styled.div`
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
@@ -26,4 +26,4 @@ const StyledInput = styled.div`
 	}
 `;
 
-export default StyledInput;
+export default StyledEmailForm;
