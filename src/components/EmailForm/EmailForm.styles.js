@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
-const StyledEmailForm = styled.form`	
+const StyledEmailForm = styled.form`
+	padding-top: 0.85rem;
+
+	h3 {
+		font-size: 18px;
+		font-weight: 500;
+		margin: 0.85rem 0;
+	}
+	
 	div {
 		display: flex;
 		flex-wrap: nowrap;

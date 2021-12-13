@@ -33,16 +33,6 @@ const Home = styled.div`
 			font-weight: 400;
 			margin: 1rem auto;
 		}
-
-		form {
-			padding-top: 0.85rem;
-
-			h3 {
-				font-size: 18px;
-				font-weight: 500;
-				margin: 0.85rem 0;
-			}
-		}
 	}
 `;
 
