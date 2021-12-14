@@ -12,13 +12,13 @@ const StyledHomeSection = styled.section`
 		max-width: 1100px;
 		display: flex;
 		align-items: center;
-		border: 1px solid blue;
+		/* border: 1px solid blue; */
 	}
 
 	div[type='text-container'],
 	div[type='image-container'] {
 		display: inline-block;
-		border: 1px solid red;
+		/* border: 1px solid red; */
 	}
 
 	div[type='text-container'] {

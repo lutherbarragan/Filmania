@@ -32,6 +32,7 @@ function Home() {
 				</div>
 
 				<div type='image-container'>
+					{/* COMPONENT START (Pass video size and position as attributes to component) */}
 					<div type='parent-animation-container'>
 						<img src={TV} alt='tv frame' />
 
@@ -41,6 +42,7 @@ function Home() {
 							</video>
 						</div>
 					</div>
+					{/* COMPONENT END */}
 				</div>
 			</HomeSection>
 		</StyledHome>
