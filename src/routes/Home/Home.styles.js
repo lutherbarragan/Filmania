@@ -6,8 +6,8 @@ const Home = styled.div`
 	background-color: ${props => props.theme.black};
 
 	main {
-		height: 100vh;
-		padding-top: 15rem;
+		position: relative;
+		height: 78vh;
 		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%),
 			radial-gradient(circle, rgba(0, 0, 0, 0.095) 0%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(${bg});
 		background-size: cover;
@@ -24,7 +24,7 @@ const Home = styled.div`
 		}
 
 		h1 {
-			font-size: 64px;
+			font-size: 62px;
 			font-weight: 600;
 		}
 

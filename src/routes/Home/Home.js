@@ -5,6 +5,8 @@ import HomeSection from '../../components/HomeSection/HomeSection';
 // ASSETS
 import TV from '../../assets/tv.png';
 import TVVideo from '../../assets/tv-video.m4v';
+// HELPERS
+import { AbsolutePos } from '../../components/helpers/Helpers.style';
 
 // STYLES
 import StyledHome from './Home.styles.js';
@@ -13,15 +15,17 @@ function Home() {
 	return (
 		<StyledHome>
 			<Navbar />
-			
+
 			<main>
-				<h1>
-					Unlimited movies, TV <br /> shows, and more.
-				</h1>
-				
-				<h2>Watch anywhere. Cancel anytime.</h2>
-				
-				<EmailForm />
+				<AbsolutePos top='55%' left='50%'>
+					<h1>
+						Unlimited movies, TV <br /> shows, and more.
+					</h1>
+
+					<h2>Watch anywhere. Cancel anytime.</h2>
+
+					<EmailForm />
+				</AbsolutePos>
 			</main>
 
 			<HomeSection>

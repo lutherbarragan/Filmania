@@ -8,6 +8,7 @@ const StyledNavbar = styled.nav`
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	z-index: 100;
 
 	img {
 		display: inline-block;
