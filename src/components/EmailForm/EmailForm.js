@@ -1,9 +1,13 @@
 import StyledEmailForm from './EmailForm.styles.js';
 
-const EmailForm = props => (
+const EmailForm = () => (
 	<StyledEmailForm>
-		<input {...props} />
-		<button>Get Started ›</button>
+		<h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+
+		<div>
+			<input type='text' placeholder='Email address' />
+			<button>Get Started ›</button>
+		</div>
 	</StyledEmailForm>
 );
 
