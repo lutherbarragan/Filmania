@@ -2,9 +2,11 @@
 import Navbar from '../../components/Navbar/Navbar';
 import EmailForm from '../../components/EmailForm/EmailForm';
 import HomeSection from '../../components/HomeSection/HomeSection';
+import TVAnimation from '../../components/TVAnimation/TVAnimation';
 // ASSETS
-import TV from '../../assets/tv.png';
-import TVVideo from '../../assets/tv-video.m4v';
+import TV_Frame_01 from '../../assets/tv.png';
+import TV_Video_01 from '../../assets/tv-video.m4v';
+
 // HELPERS
 import { AbsolutePos } from '../../components/helpers/Helpers.style';
 
@@ -35,17 +37,14 @@ function Home() {
 				</div>
 
 				<div type='image-container'>
-					{/* COMPONENT START (Pass video size and position as attributes to component) */}
-					<div type='parent-animation-container'>
-						<img src={TV} alt='tv frame' />
-
-						<div type='video-container'>
-							<video autoPlay muted loop>
-								<source src={TVVideo} type='video/mp4' />
-							</video>
-						</div>
-					</div>
-					{/* COMPONENT END */}
+					<TVAnimation
+						TV_Frame={TV_Frame_01}
+						TV_Video={TV_Video_01}
+						max_width='74%'
+						max_height='55%'
+						top='47.5%'
+						left='50%'
+					/>
 				</div>
 			</HomeSection>
 		</StyledHome>
