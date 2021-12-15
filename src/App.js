@@ -3,11 +3,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 // ROUTES
-import Home from './routes/Home/Home';
+import Home from './routes/Home/Home.styles';
 import Login from './routes/Login/Login';
 
-// STYLES
-import StyledApp from './App.styles.js';
+// STYLE FILES
+import './assets/normalize.css';
+import './assets/fonts.css';
+import './assets/styles.css';
 
 const THEME = {
 	mainRed: '#e50914',
@@ -20,14 +22,14 @@ const THEME = {
 function App() {
 	return (
 		<ThemeProvider theme={THEME}>
-			<StyledApp>
+			<div>
 				<BrowserRouter>
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/login' element={<Login />} />
 					</Routes>
 				</BrowserRouter>
-			</StyledApp>
+			</div>
 		</ThemeProvider>
 	);
 }

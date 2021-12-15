@@ -2,14 +2,12 @@
 import logo from '../../assets/filmania-logo.png';
 // COMPONENTS
 import Button from '../Button/Button.styles';
-// STYLES
-import Nav from './Navbar.styles.js';
 
-const Navbar = () => (
-	<Nav>
+const Navbar = ({ className }) => (
+	<nav className={className}>
 		<img src={logo} alt='Filmania' />
 		<Button to='/login'>Sign In</Button>
-	</Nav>
+	</nav>
 );
 
 export default Navbar;

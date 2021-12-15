@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import TVAnimation from './TVAnimation';
 
-const StyledTVAnimation = styled.div`
+const StyledTVAnimation = styled(TVAnimation)`
 	position: relative;
 	overflow: hidden;
 

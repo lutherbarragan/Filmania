@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import HomeSection from './HomeSection';
 
-const Section = styled.section`
+const StyledHomeSection = styled(HomeSection)`
 	width: 100%;
 	height: 48vh;
 	border-bottom: 1vh solid ${props => props.theme.darkGray};
@@ -40,4 +41,4 @@ const Section = styled.section`
 		width: 48%;
 	}
 `;
-export default Section;
+export default StyledHomeSection;

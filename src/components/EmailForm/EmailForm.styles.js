@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import EmailForm from './EmailForm';
 
-const Form = styled.form`
+const StyledEmailForm = styled(EmailForm)`
 	margin-top: 2rem;
 
 	h3 {
@@ -36,4 +37,4 @@ const Form = styled.form`
 	}
 `;
 
-export default Form;
+export default StyledEmailForm;

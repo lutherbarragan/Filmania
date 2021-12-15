@@ -1,8 +1,8 @@
 // COMPONENTS
-import Navbar from '../../components/Navbar/Navbar';
-import EmailForm from '../../components/EmailForm/EmailForm';
-import HomeSection from '../../components/HomeSection/HomeSection';
-import TVAnimation from '../../components/TVAnimation/TVAnimation';
+import Navbar from '../../components/Navbar/Navbar.styles';
+import EmailForm from '../../components/EmailForm/EmailForm.styles';
+import HomeSection from '../../components/HomeSection/HomeSection.styles';
+import TVAnimation from '../../components/TVAnimation/TVAnimation.styles';
 // ASSETS
 import TV_Frame_01 from '../../assets/tv.png';
 import TV_Video_01 from '../../assets/tv-video.m4v';
@@ -10,12 +10,9 @@ import TV_Video_01 from '../../assets/tv-video.m4v';
 // HELPERS
 import { AbsolutePos } from '../../components/helpers/Helpers.style';
 
-// STYLES
-import StyledHome from './Home.styles.js';
-
-function Home() {
+function Home({ className }) {
 	return (
-		<StyledHome>
+		<div className={className}>
 			<Navbar />
 
 			<main>
@@ -47,7 +44,7 @@ function Home() {
 					/>
 				</div>
 			</HomeSection>
-		</StyledHome>
+		</div>
 	);
 }
 

@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import bg from '../../assets/background.jpg';
 
-const Home = styled.div`
+import Home from './Home';
+
+const StyledHome = styled(Home)`
 	font-family: 'Inter', sans-serif;
 	background-color: ${props => props.theme.black};
 
@@ -36,4 +38,4 @@ const Home = styled.div`
 	}
 `;
 
-export default Home;
+export default StyledHome;

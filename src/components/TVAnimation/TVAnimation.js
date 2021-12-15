@@ -1,15 +1,13 @@
-import StyledTVAnimation from './TVAnimation.style';
-
-const TVAnimation = props => (
-	<StyledTVAnimation {...props}>
-		<img src={props.TV_Frame} alt='tv frame' />
+const TVAnimation = ({ className, TV_Frame, TV_Video }) => (
+	<div className={className}>
+		<img src={TV_Frame} alt='tv frame' />
 
 		<div type='video-container'>
 			<video autoPlay muted loop>
-				<source src={props.TV_Video} type='video/mp4' />
+				<source src={TV_Video} type='video/mp4' />
 			</video>
 		</div>
-	</StyledTVAnimation>
+	</div>
 );
 
 export default TVAnimation;
