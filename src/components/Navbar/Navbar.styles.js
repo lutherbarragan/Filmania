@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledNavbar = styled.nav`
+const Nav = styled.nav`
 	position: absolute;
 	width: 100%;
 	height: 5rem;
@@ -20,4 +20,4 @@ const StyledNavbar = styled.nav`
 	}
 `;
 
-export default StyledNavbar;
+export default Nav;

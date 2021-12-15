@@ -3,13 +3,13 @@ import logo from '../../assets/filmania-logo.png';
 // COMPONENTS
 import Button from '../Button/Button.styles';
 // STYLES
-import StyledNavbar from './Navbar.styles.js';
+import Nav from './Navbar.styles.js';
 
 const Navbar = () => (
-	<StyledNavbar>
+	<Nav>
 		<img src={logo} alt='Filmania' />
 		<Button to='/login'>Sign In</Button>
-	</StyledNavbar>
+	</Nav>
 );
 
 export default Navbar;
