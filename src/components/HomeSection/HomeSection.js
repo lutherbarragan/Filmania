@@ -1,9 +1,9 @@
-import StyledHomeSection from './HomeSection.styles.js';
+import Section from './HomeSection.styles.js';
 
 const HomeSection = props => (
-	<StyledHomeSection>
+	<Section>
 		<div type='flex-container'>{props.children}</div>
-	</StyledHomeSection>
+	</Section>
 );
 
 export default HomeSection;
