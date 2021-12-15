@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import Button from './Button';
 
-const StyledButton = styled.button`
+const StyledButton = styled(Button)`
 	display: inline-block;
 	font-size: 1rem;
 	font-weight: 400;

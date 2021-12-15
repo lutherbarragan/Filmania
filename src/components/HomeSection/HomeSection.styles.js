@@ -8,18 +8,18 @@ const StyledHomeSection = styled.section`
 
 	div[type='flex-container'] {
 		height: 100%;
-		margin: 0 auto;
+		margin: 1rem auto;
 		max-width: 1100px;
 		display: flex;
 		align-items: center;
-		/* border: 1px solid blue; */
 	}
 
 	div[type='text-container'],
 	div[type='image-container'] {
 		display: inline-block;
-		/* border: 1px solid red; */
 	}
+
+	/* FIRST CHILD DIV SHOULD HAVE 3REM MARGIN RIGHT */
 
 	div[type='text-container'] {
 		width: 52%;

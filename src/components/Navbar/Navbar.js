@@ -1,7 +1,7 @@
 // ASSETS
 import logo from '../../assets/filmania-logo.png';
 // COMPONENTS
-import Button from '../Button/Button';
+import Button from '../Button/Button.styles';
 // STYLES
 import StyledNavbar from './Navbar.styles.js';
 

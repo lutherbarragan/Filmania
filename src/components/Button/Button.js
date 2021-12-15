@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom';
-import StyledButton from './Button.styles.js';
 
-const Button = props => {
-	if (props.to) {
+const Button = ({ className, to, children }) => {
+	if (to) {
 		return (
-			<Link to={props.to}>
-				<StyledButton>{props.children}</StyledButton>
+			<Link to={to}>
+				<button className={className}>{children}</button>
 			</Link>
 		);
 	} else {
-		return <StyledButton>{props.children}</StyledButton>;
+		return <button className={className}>{children}</button>;
 	}
 };
 
