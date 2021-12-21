@@ -17,6 +17,8 @@ const THEME = {
 	white: '#fff',
 	black: '#000',
 	darkGray: '#222',
+	lightGray: 'rgba(255,255,255, 0.25)',
+	blue: '#0071eb',
 };
 
 function App() {

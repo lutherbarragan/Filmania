@@ -4,12 +4,13 @@ import TVAnimation from './TVAnimation';
 const StyledTVAnimation = styled(TVAnimation)`
 	position: relative;
 	overflow: hidden;
+	margin: -10% -5% -5% 0;
 
 	img {
 		position: relative;
 		z-index: 2;
 	}
-	div[type='video-container'] {
+	.video-container {
 		${props => console.log(props.max_width)}
 		width: 100%;
 		height: 100%;

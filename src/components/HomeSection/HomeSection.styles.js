@@ -3,22 +3,22 @@ import HomeSection from './HomeSection';
 
 const StyledHomeSection = styled(HomeSection)`
 	width: 100%;
-	height: 48vh;
 	border-bottom: 1vh solid ${props => props.theme.darkGray};
 	color: ${props => props.theme.white};
 
+	padding: 70px 45px;
+
 	.flex-container {
-		height: 100%;
-		margin: 1rem auto;
+		margin: 0 auto;
 		max-width: 1100px;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 
 		.text-container,
 		.image-container {
 			display: inline-block;
 		}
-		/* FIRST CHILD DIV SHOULD HAVE 3REM MARGIN RIGHT */
 
 		.text-container {
 			width: 52%;
@@ -32,6 +32,14 @@ const StyledHomeSection = styled(HomeSection)`
 
 			h2 {
 				font-size: 1.625rem;
+			}
+
+			:nth-child(1) {
+				padding-right: 3rem;
+			}
+
+			:nth-child(2) {
+				padding-left: 2rem;
 			}
 		}
 
