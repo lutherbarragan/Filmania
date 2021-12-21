@@ -28,12 +28,12 @@ function Home({ className }) {
 			</main>
 
 			<HomeSection>
-				<div type='text-container'>
+				<div className='text-container'>
 					<h1>Enjoy on your TV.</h1>
 					<h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
 				</div>
 
-				<div type='image-container'>
+				<div className='image-container'>
 					<TVAnimation
 						TV_Frame={TV_Frame_01}
 						TV_Video={TV_Video_01}
@@ -42,6 +42,24 @@ function Home({ className }) {
 						top='47.5%'
 						left='50%'
 					/>
+				</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div className='image-container'>
+					<TVAnimation
+						TV_Frame={TV_Frame_01}
+						TV_Video={TV_Video_01}
+						max_width='74%'
+						max_height='55%'
+						top='47.5%'
+						left='50%'
+					/>
+				</div>
+
+				<div className='text-container'>
+					<h1>Enjoy on your TV.</h1>
+					<h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
 				</div>
 			</HomeSection>
 		</div>
