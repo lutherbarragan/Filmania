@@ -5,11 +5,13 @@ import HomeSection from '../../components/HomeSection/HomeSection.styles';
 import TVAnimation from '../../components/TVAnimation/TVAnimation.styles';
 import PhoneAnimation from '../../components/PhoneAnimation/PhoneAnimation.styles';
 // ASSETS
-import TV_Frame_01 from '../../assets/tv.png';
-import TV_Video_01 from '../../assets/tv-video.m4v';
+import TV_Frame from '../../assets/TV_frame.png';
+import TV_Video from '../../assets/TV_video.m4v';
 import Phone_Frame from '../../assets/phone_frame.jpg';
 import Phone_show_cover from '../../assets/phone_show_cover.png';
 import Phone_download_icon from '../../assets/Phone_download_icon.gif';
+import PC_Frame from '../../assets/PC_frame.png';
+import PC_Video from '../../assets/PC_video.m4v';
 
 // HELPERS
 import { AbsolutePos } from '../../components/helpers/Helpers.style';
@@ -39,8 +41,8 @@ function Home({ className }) {
 
 				<div className='image-container'>
 					<TVAnimation
-						TV_Frame={TV_Frame_01}
-						TV_Video={TV_Video_01}
+						TV_Frame={TV_Frame}
+						TV_Video={TV_Video}
 						max_width='74%'
 						max_height='55%'
 						top='47.5%'
@@ -61,6 +63,26 @@ function Home({ className }) {
 				<div className='text-container'>
 					<h1>Download your shows to watch offline.</h1>
 					<h2>Save your favorites easily and always have something to watch.</h2>
+				</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div className='text-container'>
+					<h1>Watch everywhere.</h1>
+					<h2>
+						Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.
+					</h2>
+				</div>
+
+				<div className='image-container'>
+					<TVAnimation
+						TV_Frame={PC_Frame}
+						TV_Video={PC_Video}
+						max_width='63%'
+						max_height='47%'
+						top='34%'
+						left='50%'
+					/>
 				</div>
 			</HomeSection>
 		</div>
