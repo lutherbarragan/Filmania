@@ -1,4 +1,4 @@
-const TVAnimation = ({ className, TV_Frame, TV_Video }) => (
+const ScreenAnimation = ({ className, TV_Frame, TV_Video }) => (
 	<div className={className}>
 		<img src={TV_Frame} alt='tv frame' />
 
@@ -10,4 +10,4 @@ const TVAnimation = ({ className, TV_Frame, TV_Video }) => (
 	</div>
 );
 
-export default TVAnimation;
+export default ScreenAnimation;

@@ -2,7 +2,7 @@
 import Navbar from '../../components/Navbar/Navbar.styles';
 import EmailForm from '../../components/EmailForm/EmailForm.styles';
 import HomeSection from '../../components/HomeSection/HomeSection.styles';
-import TVAnimation from '../../components/TVAnimation/TVAnimation.styles';
+import ScreenAnimation from '../../components/ScreenAnimation/ScreenAnimation.styles';
 import PhoneAnimation from '../../components/PhoneAnimation/PhoneAnimation.styles';
 // ASSETS
 import TV_Frame from '../../assets/TV_frame.png';
@@ -40,7 +40,7 @@ function Home({ className }) {
 				</div>
 
 				<div className='image-container'>
-					<TVAnimation
+					<ScreenAnimation
 						TV_Frame={TV_Frame}
 						TV_Video={TV_Video}
 						max_width='74%'
@@ -75,7 +75,7 @@ function Home({ className }) {
 				</div>
 
 				<div className='image-container'>
-					<TVAnimation
+					<ScreenAnimation
 						TV_Frame={PC_Frame}
 						TV_Video={PC_Video}
 						max_width='63%'

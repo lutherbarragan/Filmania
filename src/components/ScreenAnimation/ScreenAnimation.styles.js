@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import TVAnimation from './TVAnimation';
+import ScreenAnimation from './ScreenAnimation';
 
-const StyledTVAnimation = styled(TVAnimation)`
+const StyledScreenAnimation = styled(ScreenAnimation)`
 	position: relative;
 	overflow: hidden;
 	margin: -10% -5% -5% 0;
@@ -28,4 +28,4 @@ const StyledTVAnimation = styled(TVAnimation)`
 	}
 `;
 
-export default StyledTVAnimation;
+export default StyledScreenAnimation;
