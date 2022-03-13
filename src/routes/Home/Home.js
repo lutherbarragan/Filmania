@@ -12,6 +12,7 @@ import Phone_show_cover from '../../assets/phone_show_cover.png';
 import Phone_download_icon from '../../assets/Phone_download_icon.gif';
 import PC_Frame from '../../assets/PC_frame.png';
 import PC_Video from '../../assets/PC_video.m4v';
+import Kids_Profile from '../../assets/Kids_profile_image.png';
 
 // HELPERS
 import { AbsolutePos } from '../../components/helpers/Helpers.style';
@@ -83,6 +84,20 @@ function Home({ className }) {
 						top='34%'
 						left='50%'
 					/>
+				</div>
+			</HomeSection>
+
+			<HomeSection>
+				<div className='image-container'>
+					<img src={Kids_Profile} alt='Kids Profile' />
+				</div>
+
+				<div className='text-container'>
+					<h1>Create profiles for kids.</h1>
+					<h2>
+						Send kids on adventures with their favorite characters in a space made just for them—free with
+						your membership.
+					</h2>
 				</div>
 			</HomeSection>
 		</div>
