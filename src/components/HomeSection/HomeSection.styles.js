@@ -5,8 +5,13 @@ const StyledHomeSection = styled(HomeSection)`
 	width: 100%;
 	border-bottom: 1vh solid ${props => props.theme.darkGray};
 	color: ${props => props.theme.white};
-
 	padding: 70px 45px;
+
+	h1 {
+		font-size: 3.125rem;
+		font-weight: 600;
+		margin-bottom: 1.2rem;
+	}
 
 	.flex-container {
 		margin: 0 auto;
@@ -22,16 +27,9 @@ const StyledHomeSection = styled(HomeSection)`
 
 		.text-container {
 			width: 52%;
-			line-height: 1.4;
-
-			h1 {
-				font-size: 3.125rem;
-				font-weight: 600;
-				margin-bottom: 0.5rem;
-			}
 
 			h2 {
-				font-size: 1.625rem;
+				font-size: 1.5rem;
 			}
 
 			:nth-child(1) {

@@ -15,7 +15,7 @@ import PC_Video from '../../assets/PC_video.m4v';
 import Kids_Profile from '../../assets/Kids_profile_image.png';
 
 // HELPERS
-import { AbsolutePos } from '../../components/helpers/Helpers.style';
+import { AbsolutePos, TextCenter } from '../../components/helpers/Helpers.style';
 
 function Home({ className }) {
 	return (
@@ -99,6 +99,12 @@ function Home({ className }) {
 						your membership.
 					</h2>
 				</div>
+			</HomeSection>
+
+			<HomeSection>
+				<TextCenter>
+					<h1>Frequently Asked Questions</h1>
+				</TextCenter>
 			</HomeSection>
 		</div>
 	);

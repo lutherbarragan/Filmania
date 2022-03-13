@@ -8,3 +8,8 @@ export const AbsolutePos = styled.div`
 	${props => (props.left ? { left: props.left } : '')};
 	transform: translate(-50%, -50%);
 `;
+
+export const TextCenter = styled.div`
+	width: 100%;
+	text-align: center;
+`;
