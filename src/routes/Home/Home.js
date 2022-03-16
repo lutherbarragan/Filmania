@@ -101,10 +101,21 @@ function Home({ className }) {
 				</div>
 			</HomeSection>
 
-			<HomeSection>
+			<HomeSection noFlex>
 				<TextCenter>
 					<h1>Frequently Asked Questions</h1>
 				</TextCenter>
+
+				<div>
+					<ul>
+						<li>What is Filmania?</li>
+						<li>How Much does Filmania cost?</li>
+						<li>Where can I watch</li>
+						<li>How do I cancel?</li>
+						<li>What can I watch on Filmania?</li>
+						<li>Is Netflix good for kids?</li>
+					</ul>
+				</div>
 			</HomeSection>
 		</div>
 	);

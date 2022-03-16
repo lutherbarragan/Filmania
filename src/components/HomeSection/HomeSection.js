@@ -1,6 +1,6 @@
-const HomeSection = ({ className, children }) => (
+const HomeSection = ({ className, children, noFlex }) => (
 	<section className={className}>
-		<div className='flex-container'>{children}</div>
+		<div className={noFlex ? '' : 'flex-container'}>{children}</div>
 	</section>
 );
 
