@@ -16,8 +16,9 @@ const THEME = {
 	secondaryRed: '#f40612',
 	white: '#fff',
 	black: '#000',
-	darkGray: '#222',
 	lightGray: 'rgba(255,255,255, 0.25)',
+	gray: '#303030',
+	darkGray: '#222',
 	blue: '#0071eb',
 };
 

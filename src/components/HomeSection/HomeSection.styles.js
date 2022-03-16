@@ -13,9 +13,18 @@ const StyledHomeSection = styled(HomeSection)`
 		margin-bottom: 1.2rem;
 	}
 
+	.container,
 	.flex-container {
 		margin: 0 auto;
 		max-width: 1100px;
+	}
+
+	.container .faq-container {
+		width: 75%;
+		margin: 2em auto;
+	}
+
+	.flex-container {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;

@@ -11,7 +11,6 @@ const StyledScreenAnimation = styled(ScreenAnimation)`
 		z-index: 2;
 	}
 	.video-container {
-		${props => console.log(props.max_width)}
 		width: 100%;
 		height: 100%;
 		${props => (props.max_width ? { 'max-width': props.max_width } : '')};

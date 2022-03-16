@@ -4,6 +4,7 @@ import EmailForm from '../../components/EmailForm/EmailForm.styles';
 import HomeSection from '../../components/HomeSection/HomeSection.styles';
 import ScreenAnimation from '../../components/ScreenAnimation/ScreenAnimation.styles';
 import PhoneAnimation from '../../components/PhoneAnimation/PhoneAnimation.styles';
+import FaqItem from '../../components/FaqItem/FaqItem.styles';
 // ASSETS
 import TV_Frame from '../../assets/TV_frame.png';
 import TV_Video from '../../assets/TV_video.m4v';
@@ -106,15 +107,13 @@ function Home({ className }) {
 					<h1>Frequently Asked Questions</h1>
 				</TextCenter>
 
-				<div>
-					<ul>
-						<li>What is Filmania?</li>
-						<li>How Much does Filmania cost?</li>
-						<li>Where can I watch</li>
-						<li>How do I cancel?</li>
-						<li>What can I watch on Filmania?</li>
-						<li>Is Netflix good for kids?</li>
-					</ul>
+				<div className='faq-container'>
+					<FaqItem>What is Filmania?</FaqItem>
+					<FaqItem>How much does Filmania cost?</FaqItem>
+					<FaqItem>Where can I watch?</FaqItem>
+					<FaqItem>How do I cancel?</FaqItem>
+					<FaqItem>What can I watch on Filmania?</FaqItem>
+					<FaqItem>Is Filmania good for kids?</FaqItem>
 				</div>
 			</HomeSection>
 		</div>
