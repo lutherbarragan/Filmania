@@ -19,7 +19,7 @@ const StyledHomeSection = styled(HomeSection)`
 		max-width: 1100px;
 	}
 
-	.container .faq-container {
+	.container {
 		width: 75%;
 		margin: 2em auto;
 	}
@@ -52,6 +52,12 @@ const StyledHomeSection = styled(HomeSection)`
 
 		.image-container {
 			width: 48%;
+		}
+	}
+
+	&.faq-container {
+		h1 {
+			margin-bottom: 70px;
 		}
 	}
 `;
